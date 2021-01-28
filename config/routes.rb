@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
-  resourcecs :resumes, only: [:index, :new, :create, :destroy]
+  resources :resumes, only: [:index, :new, :create, :destroy]
   root "resumes#index"
   # get 'resumes/index'
   # get 'resumes/new'
